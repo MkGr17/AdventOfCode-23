@@ -10,12 +10,13 @@ allContents.split(/\r?\n/).forEach((line) => {
 });
 
 console.log(result);
+
 function getValue (line) {
 
     const first = (line.match(/\d/) || [])[0];
     const last = (line.match(/\d(?=\D*$)/) || [])[0];
-    const result = first + '' + last;
+    const firstlast = first + '' + last;
 
-    return parseInt(result);
+    return parseInt(firstlast);
 
 }

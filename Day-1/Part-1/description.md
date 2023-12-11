@@ -1,4 +1,4 @@
-# Advent of Code - Day 1: Trebuchet?!
+# Advent of Code - Day 1: Trebuchet
 
 ## Puzzle Description
 
